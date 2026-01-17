@@ -1,0 +1,11 @@
+name: TNTRun
+main: cn.glorydark.nukkit.tntrun.GameMain
+version: "1.0.0"
+api: "1.0.0"
+author: glorydark
+description: TNTRun
+load: POSTWORLD
+depend:
+  - GameAPI
+  - Tips
+  - RsNPC
