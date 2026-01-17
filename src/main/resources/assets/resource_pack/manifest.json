@@ -1,0 +1,27 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "pack.description",
+    "name": "pack.name",
+    "uuid": "98876a6c-fe16-60f4-87a4-5afb6439bd9f",
+    "version": [
+      1,
+      0,
+      2
+    ],
+    "min_engine_version": [1,21,0],
+    "max_engine_version": [1,21,0]
+  },
+  "modules": [
+    {
+      "description": "Test Block",
+      "type": "resources",
+      "uuid": "b42e05a7-0a94-eb6c-a150-6bfd59564e26",
+      "version": [
+        1,
+        0,
+        2
+      ]
+    }
+  ]
+}

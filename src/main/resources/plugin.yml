@@ -1,11 +1,7 @@
-name: TNTRun
-main: cn.glorydark.nukkit.tntrun.GameMain
+name: TestCustomBlock
+main: cn.glorydark.nukkit.test.CustomBlockMain
 version: "1.0.0"
 api: "1.0.0"
 author: glorydark
-description: TNTRun
+description: CustomBlock
 load: POSTWORLD
-depend:
-  - GameAPI
-  - Tips
-  - RsNPC
