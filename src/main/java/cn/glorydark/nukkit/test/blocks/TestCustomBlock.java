@@ -41,7 +41,7 @@ public class TestCustomBlock extends CustomBlockMeta {
                 .any(Materials.RenderMethod.BLEND, "gold_block");
 
         CustomBlockManager.get().registerCustomBlock(
-                NAME, ID,
+                NAME, ID, PROPERTIES,
                 CustomBlockDefinition.builder(new TestCustomBlock())
                         .creativeCategory(CreativeItemCategory.CONSTRUCTION)
                         .materials(materials)
